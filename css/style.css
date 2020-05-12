@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #EAF6F6;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2{
+  margin-top: 0;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3{
+  margin-top: 0;
+  color: #11999E;
+}
+
+p{
+  color: #40514E;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%
+}
+
+.top{
+  padding-top: 100px;
+  position: relative;
+}
+
+.profile{
+  margin: 100px auto 100px auto;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.hello{
+  width: 10%;
+}
+
+.writing{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.japanese{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  margin-bottom: 30px;
+}
+
+.bottom-container{
+  padding: 50px 0 30px 0;
+  background-color: #66BFBF
+}
+
+.btn {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*
+.middle{
+  background-color: green;
+  height: 200px;
+  margin-left: 260px;
+  width: 200px;
+
+}
+
+.bottom{
+  background-color: yellow;
+  height: 200px;
+  margin-left: 500px;
+  width: 200px;
+}
+ */
